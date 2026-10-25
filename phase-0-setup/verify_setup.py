@@ -106,11 +106,11 @@ def parse_repo_slug(remote_url: str) -> str:
         url = url[:-4]
         
     # Split the link text based on whether it is an SSH link or an HTTPS link
-    # Splitting by "://github.com" drops the slash so it is not left behind
+    # Adding the trailing slash inside the split string cleanly drops it
     if "git@github.com:" in url:
         slug = url.split("git@github.com:")[-1]
     else:
-        slug = url.split("://github.com")[-1]
+        slug = url.split("://://github.com")[-1]
         
     # Hand back the clean owner/repository name slug
     return slug
