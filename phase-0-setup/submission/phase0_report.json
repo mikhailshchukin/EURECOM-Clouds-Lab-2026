@@ -1,0 +1,24 @@
+{
+  "phase": "0",
+  "environment": {
+    "cloud_shell": true
+  },
+  "python": {
+    "version": "3.12.3",
+    "ok": true
+  },
+  "gcloud": {
+    "account": "mikhail.shchukin@eurecom.fr",
+    "project": "project-ee57002f-4dea-414b-b82",
+    "error": null
+  },
+  "docker": {
+    "version": "Docker version 29.9.2, build a82e528",
+    "present": true
+  },
+  "git": {
+    "remote": "https://github.com/mikhailshchukin/EURECOM-Clouds-Lab-2026.git",
+    "is_github": true,
+    "slug": "mikhailshchukin/EURECOM-Clouds-Lab-2026"
+  }
+}
